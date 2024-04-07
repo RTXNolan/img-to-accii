@@ -26,4 +26,4 @@ for pixel_value in pixels:
 ascii_str = ''.join(ascii_image)
 
 for i in range(0, len(ascii_str), new_width):
-    print(ascii_str[i:i+new_width])
+    print(ascii_str[i:i+new_width]
